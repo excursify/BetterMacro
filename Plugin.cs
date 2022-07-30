@@ -4,10 +4,10 @@ using Dalamud.Game.Gui;
 using Dalamud.Interface.Windowing;
 using Dalamud.Logging;
 using Dalamud.Plugin;
-using DalamudPluginProjectTemplate.Attributes;
+using BetterMacro.Attributes;
 using System;
 
-namespace DalamudPluginProjectTemplate
+namespace BetterMacro
 {
     public class Plugin : IDalamudPlugin
     {
@@ -19,7 +19,7 @@ namespace DalamudPluginProjectTemplate
         private readonly Configuration config;
         private readonly WindowSystem windowSystem;
 
-        public string Name => "Your Plugin's Display Name";
+        public string Name => "BetterMacro";
 
         public Plugin(
             DalamudPluginInterface pi,
@@ -50,7 +50,7 @@ namespace DalamudPluginProjectTemplate
             this.commandManager = new PluginCommandManager<Plugin>(this, commands);
         }
 
-        [Command("/example1")]
+        [Command("/betm")]
         [HelpMessage("Example help message.")]
         public void ExampleCommand1(string command, string args)
         {

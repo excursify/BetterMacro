@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DalamudPluginProjectTemplate.Attributes
+namespace BetterMacro.Attributes
 {
     [AttributeUsage(AttributeTargets.Method)]
     public class HelpMessageAttribute : Attribute

@@ -1,12 +1,12 @@
 ﻿using Dalamud.Game.Command;
-using DalamudPluginProjectTemplate.Attributes;
+using BetterMacro.Attributes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using static Dalamud.Game.Command.CommandInfo;
 
-namespace DalamudPluginProjectTemplate
+namespace BetterMacro
 {
     public class PluginCommandManager<THost> : IDisposable
     {

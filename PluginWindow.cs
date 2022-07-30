@@ -2,7 +2,7 @@
 using ImGuiNET;
 using System.Numerics;
 
-namespace DalamudPluginProjectTemplate
+namespace BetterMacro
 {
     public class PluginWindow : Window
     {
