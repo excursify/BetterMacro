@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "BetterMacro": {
+      "commandName": "Project",
+      "nativeDebugging": false
+    }
+  }
+}
